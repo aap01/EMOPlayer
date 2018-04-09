@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#224d91"
+    android:padding="5dp"
+    android:id="@+id/singletrack"
+    tools:menu="@menu/tracks_menu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#bac7db"
+        android:id="@+id/songname"
+        android:textSize="12dp"
+        android:text="First Song"/>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/songname"
+        android:textColor="#bac7db"
+        android:text="4:19"
+        android:textSize="8dp"
+        android:layout_marginLeft="250dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/artistname"
+        android:textColor="#bac7db"
+        android:text="I am"
+        android:textSize="10dp"
+        android:layout_below="@id/duration"/>
+
+
+
+</RelativeLayout>
